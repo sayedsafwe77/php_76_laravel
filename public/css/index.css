@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background: rgb(200, 200, 200);
+}
+table,
+tr,
+th,
+td {
+    padding: 0.7em;
+    border: 1px solid gray;
+}
+td {
+    text-align: center;
+}
+.error {
+    color: red;
+}
+i {
+    font-size: 22px;
+}
+.fa-trash:hover {
+    color: red;
+    cursor: pointer;
+}
+.fa-pen-to-square:hover {
+    color: blue;
+    cursor: pointer;
+}
